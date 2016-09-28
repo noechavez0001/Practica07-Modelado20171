@@ -163,16 +163,6 @@
       <string>Tamaño</string>
      </property>
     </widget>
-    <zorder>spinBox</zorder>
-    <zorder>label_6</zorder>
-    <zorder>label_5</zorder>
-    <zorder>label_4</zorder>
-    <zorder>label_3</zorder>
-    <zorder>spinBox_2</zorder>
-    <zorder>spinBox_3</zorder>
-    <zorder>spinBox_4</zorder>
-    <zorder>label_2</zorder>
-    <zorder>label_2</zorder>
    </widget>
    <widget class="QWidget" name="widget_2" native="true">
     <property name="geometry">
@@ -306,6 +296,9 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="placeholderText">
+      <string>127.0.0.1</string>
+     </property>
     </widget>
     <widget class="QSpinBox" name="spinBox_5">
      <property name="geometry">
@@ -315,6 +308,12 @@
        <width>131</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="minimum">
+      <number>1024</number>
+     </property>
+     <property name="maximum">
+      <number>65535</number>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_6">
@@ -350,7 +349,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Servidor</string>
+      <string>Maestro</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_11">
@@ -388,6 +387,9 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="placeholderText">
+      <string>127.0.0.1</string>
+     </property>
     </widget>
     <widget class="QSpinBox" name="spinBox_6">
      <property name="geometry">
@@ -397,6 +399,12 @@
        <width>131</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="minimum">
+      <number>1024</number>
+     </property>
+     <property name="maximum">
+      <number>65535</number>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_7">
